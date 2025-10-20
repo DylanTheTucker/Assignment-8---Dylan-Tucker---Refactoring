@@ -7,3 +7,7 @@ Code was refactored to use lambda expressions in place of for loops and comparis
 SIMULATED PEER REVIEW
 
 Overall the original code was effective if what it set out to do. There was substantial exception handling, use of higher-level functions like comparators, and the code was separated into a relatively easy to follow format. However, much of the code was harder to read due to the use of frequent -and often even nested several times over- if and for statements. However, after implementing lambda expressions, many of the longest functions were reduced to substantially smaller line counts. The program still does the same thing as before, but in a more manageable way. All of my refactors were done with the goal of reducing the length of the code as much as possible, and to also simplify wherever I could as well.
+
+NOTES:
+
+Before and After is with comment blocks showing the original code following the refactored coding segments. Refactored code is in the refactored code file, original code is in the base code file.
